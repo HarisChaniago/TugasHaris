@@ -1,0 +1,178 @@
+@import url("https://fonts.cdnfonts.com/css/karantina");
+@import url("https://fonts.cdnfonts.com/css/joti-one");
+@import url("https://fonts.cdnfonts.com/css/kanit");
+@import url("https://fonts.cdnfonts.com/css/keania-one");
+@import url("https://fonts.cdnfonts.com/css/kavoon");
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: white;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+header img {
+  width: 225px;
+  margin: 0 0 10px 40px;
+}
+
+.menu {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin: 0 20px;
+  font-family: "Keania One", sans-serif;
+}
+
+.menu-v {
+  text-decoration: none;
+  color: rgb(130, 139, 178);
+  font-size: 20px;
+  margin: 0 20px;
+  font-family: "Keania One", sans-serif;
+}
+
+.btn-sing-up {
+  font-size: 18px;
+  text-decoration: none;
+  background-color: black;
+  color: rgb(130, 139, 178);
+  padding: 13px 25px;
+  margin: 0 50px;
+  border-radius: 8px;
+  font-family: "Kavoon", sans-serif;
+}
+
+.btn-sing-up:hover {
+  font-size: 18px;
+  text-decoration: none;
+  background-color: rgb(130, 139, 178);
+  color: black;
+  padding: 13px 25px;
+  margin: 0 50px;
+  border-radius: 8px;
+  font-family: "Kavoon", sans-serif;
+}
+
+.bagian-1 {
+  background-image: url("/asset/img/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 655px;
+  display: flex;
+  flex-direction: column;
+}
+
+.t-1 {
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: 100px;
+  width: 500px;
+  /*background-color: blue;*/
+  color: white;
+  font-family: "Keania One", sans-serif;
+  font-size: 80px;
+}
+
+.info{
+    display: flex;
+}
+
+.info img{
+    width: 80px;
+    height: 80px;
+    margin-top: 100px;
+    margin-left: 650px;
+    margin-right: 20px;
+}
+
+.t-2 {
+  display: inline-block;
+  margin: 100px 50px 0 0;
+  text-align: end;
+  /*background-color: chartreuse;*/
+  color: white;
+  font-family: "kanit", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  margin-bottom: 55px;
+  margin-top: 55px;
+}
+
+.hias1 {
+  height: 400px;
+}
+
+.hias2 {
+  height: 400px;
+}
+
+/**/
+
+.about {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  width: 400px;
+  height: 150px;
+  margin-top: 120px;
+}
+
+.about h2 {
+  margin-bottom: 30px;
+}
+
+.new {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  width: 450px;
+  height: 150px;
+  margin-top: 120px;
+  margin-left: 70px;
+}
+
+.new h2 {
+  margin-bottom: 30px;
+}
+
+.follow {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  width: 300px;
+  height: 150px;
+  margin-top: 120px;
+  margin-left: 50px;
+}
+
+.follow h2 {
+  margin-bottom: 30px;
+}
+
+.follow p {
+  margin-bottom: 20px;
+}
+
+.sosial img {
+  margin-right: 10px;
+}
